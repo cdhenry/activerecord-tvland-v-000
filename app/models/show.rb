@@ -1,3 +1,3 @@
 class Show < ActiveRecord::Base
-  belongs_to :network
+  belongs_to :networks
 end
