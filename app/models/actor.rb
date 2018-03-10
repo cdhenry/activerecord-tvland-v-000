@@ -9,5 +9,4 @@ class Actor < ActiveRecord::Base
   def list_roles
     self.characters.collect{|character| character.name}
   end
-  
 end
